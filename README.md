@@ -20,4 +20,4 @@ Each .npz file contains two primary arrays:
 The simulated portion of the dataset was created by modeling a toraxic tank with 16 electrodes in COMSOL. We varied the size, position, and conductivity of inclusions to ensure diversity in the training set.
 
 2. Experimental Acquisition
-Real-world data was gathered using the hardware setup described in the associated paper. This data includes inherent noise and electrode contact impedance variations, providing a realistic challenge for reconstruction models. Also, the data were hand digitilized.
+Real-world data was gathered using the hardware setup described in the associated paper. This data includes inherent noise and electrode contact impedance variations, providing a realistic challenge for reconstruction models. The inclusions include a metal cylinder (metal_real_raw_npz), a glass cylinder (glass_real_raw_npz), a PLA parallelepiped (square_real_raw_npz), and a triangular prism (triangle_real_raw_npz). The data were hand digitilized. 
